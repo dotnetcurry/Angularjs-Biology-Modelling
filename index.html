@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Biology with Angular</title>
+    <link href="styles/main.css" rel="stylesheet"/>
+</head>
+<body>
+    <div ng-app="biologyDemo">
+        <section class="body-content">
+            <ng-biology-demo></ng-biology-demo>
+        </section>
+    </div>
+    <script src="app/vendor/angular/angular.min.js"></script>
+    <script src="app/vendor/angularplasmid/angularplasmid.min.js"></script>
+
+    <script src="app/app.js"></script>
+
+    <script src="app/biology/services/fastaParserService.js"></script>
+    <script src="app/biology/services/bioService.js"></script>
+
+    <script src="app/common/services/fileReaderService.js"></script>
+    <script src="app/common/directives/fileReaderDirective.js"></script>
+
+    <script src="app/common/controllers/demoController.js"></script>
+    <script src="app/common/directives/ngDemoDirective.js"></script>
+    <script src="app/common/directives/ngPlasmidDirective.js"></script>
+</body>
+</html>

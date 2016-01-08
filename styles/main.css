@@ -1,0 +1,33 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.body-content {
+  height: 100%;
+  padding: 2px;
+}
+
+svg {
+  border: solid 1px lightgray;
+}
+
+#t1 {
+  fill: #ADADAD;
+}
+
+.trackscale-label, .markerlabel-inside {
+  font-family: 'Tohoma';
+  font-size: 8px;
+  fill: #8b878f;
+}
+
+.tracklabel {
+  font-family: 'Tahoma';
+  font-size: 11px;
+  fill: #43a8d4;
+}
+
